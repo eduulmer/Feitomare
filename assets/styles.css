@@ -164,3 +164,17 @@ h2{margin:0 0 12px 0}
   .navbtn{display:inline-block}
   .navmobile{display:block}
 }
+.pill{
+  display:inline-block;
+  font-size:12px;
+  padding:4px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.14);
+  margin-left:8px;
+  vertical-align:middle;
+  color: #06131d;
+  font-weight: 800;
+}
+.pill--alta{ background: #57d3c7; }
+.pill--media{ background: #6d8dff; }
+.pill--sem{ background: #ffd166; }
