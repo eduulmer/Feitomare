@@ -201,3 +201,28 @@ h2{margin:0 0 12px 0}
   .navbtn{display:inline-block}
   .navmobile{display:block}
 }
+.amenities{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:10px 0 6px 0;
+  padding:0;
+  list-style:none;
+}
+.amenity{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 10px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.55);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.amenity svg{
+  width:18px;
+  height:18px;
+  color: var(--brand);
+  flex: 0 0 auto;
+}
