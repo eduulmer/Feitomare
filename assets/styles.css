@@ -18,14 +18,10 @@ body{
   margin:0;
   font-family:var(--font);
   color:var(--text);
-  background: 
-    radial-gradient(ellipse 1500px 800px at 15% -5%, rgba(207,239,255,1), transparent 50%),
-    radial-gradient(ellipse 1200px 700px at 85% 5%, rgba(191,243,234,.9), transparent 55%),
-    radial-gradient(ellipse 1400px 600px at 50% 100%, rgba(14,165,183,.1), transparent 70%),
-    linear-gradient(135deg, var(--bg) 0%, rgba(14,165,183,.05) 100%),
-    var(--bg);
+  background: var(--bg);
   background-attachment: fixed;
 }
+
 
 a{color:inherit}
 .container{max-width:var(--container); margin:0 auto; padding:0 18px}
