@@ -19,11 +19,13 @@ body{
   margin:0;
   font-family:var(--font);
   color:var(--text);
-  background:
-    radial-gradient(1200px 600px at 20% -10%, rgba(14,165,183,.22), transparent 60%),
-    radial-gradient(900px 500px at 100% 10%, rgba(109,176,255,.32), transparent 55%),
-    radial-gradient(1000px 600px at 60% 0%, rgba(207,239,255,.90), transparent 60%),
+  background: 
+    radial-gradient(ellipse 1500px 800px at 15% -5%, rgba(207,239,255,1), transparent 50%),
+    radial-gradient(ellipse 1200px 700px at 85% 5%, rgba(191,243,234,.9), transparent 55%),
+    radial-gradient(ellipse 1400px 600px at 50% 100%, rgba(14,165,183,.1), transparent 70%),
+    linear-gradient(135deg, var(--bg) 0%, rgba(14,165,183,.05) 100%),
     var(--bg);
+  background-attachment: fixed;
 }
 
 a{color:inherit}
