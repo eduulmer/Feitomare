@@ -31,7 +31,7 @@ a{color:inherit}
   z-index:10;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background: #c8a280;
+  background: #c8a380;
   border-bottom: 1px solid rgba(13, 107, 132, .15);
   box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
 }
