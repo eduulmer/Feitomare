@@ -1,6 +1,6 @@
 :root{
   /* Cor de fundo bege clara (#F7F6F2) */
-  --bg: #c8a280;                 /* bege claro quente */
+  --bg: #f7f6f2;                 /* bege claro quente */
   --card: rgba(255,255,255,.95); /* cartões/painéis (branco translúcido) */
   --text: #2d2d2d;               /* texto escuro */
   --muted: #666666;              /* texto secundário */
@@ -31,7 +31,7 @@ a{color:inherit}
   z-index:10;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background: #bcdbdf;
+  background: #c8a280;
   border-bottom: 1px solid rgba(13, 107, 132, .15);
   box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
 }
