@@ -1,20 +1,16 @@
 :root{
-  /* Tema claro — “dia de praia” */
+  /* Tema claro — “dia de praia” (apenas azuis) */
   --bg:#f6fbff;
-  --card: rgba(255,255,255,.82);
+  --card: rgba(255,255,255,.84);
   --text:#0b2233;
   --muted:#3e5a6b;
-  --brand:#0ea5b7;
+  --brand:#0ea5b7;              /* azul-turquesa */
+  --brand2:#6db0ff;             /* azul-céu */
   --line:rgba(10,40,60,.14);
   --shadow: 0 12px 30px rgba(10,40,60,.12);
   --radius: 16px;
   --container: 1080px;
   --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-
-  /* Cores auxiliares */
-  --sun:#ffd166;
-  --sky:#cfefff;
-  --sea:#bff3ea;
 }
 
 *{box-sizing:border-box}
@@ -24,9 +20,9 @@ body{
   font-family:var(--font);
   color:var(--text);
   background:
-    radial-gradient(1200px 600px at 20% -10%, rgba(255,209,102,.55), transparent 60%),
-    radial-gradient(900px 500px at 100% 10%, rgba(191,243,234,.65), transparent 55%),
-    radial-gradient(1000px 600px at 60% 0%, rgba(207,239,255,.85), transparent 60%),
+    radial-gradient(1200px 600px at 20% -10%, rgba(14,165,183,.22), transparent 60%),
+    radial-gradient(900px 500px at 100% 10%, rgba(109,176,255,.32), transparent 55%),
+    radial-gradient(1000px 600px at 60% 0%, rgba(207,239,255,.90), transparent 60%),
     var(--bg);
 }
 
@@ -36,7 +32,7 @@ a{color:inherit}
 .topbar{
   position:sticky; top:0; z-index:10;
   backdrop-filter: blur(10px);
-  background: rgba(246,251,255,.78);
+  background: rgba(246,251,255,.80);
   border-bottom: 1px solid var(--line);
 }
 .topbar__inner{
@@ -106,7 +102,7 @@ h1{margin:0 0 10px 0; font-size:44px; line-height:1.08}
 .btn{
   display:inline-block;
   text-decoration:none;
-  background: linear-gradient(135deg, var(--brand), rgba(255,209,102,1));
+  background: linear-gradient(135deg, var(--brand), var(--brand2));
   color:#04202a;
   padding:10px 14px;
   border-radius:12px;
@@ -116,7 +112,7 @@ h1{margin:0 0 10px 0; font-size:44px; line-height:1.08}
 .btn:hover{filter: brightness(0.98)}
 
 .btn--ghost{
-  background: rgba(255,255,255,.55);
+  background: rgba(255,255,255,.60);
   color: var(--text);
   border: 1px solid var(--line);
 }
@@ -146,9 +142,9 @@ h1{margin:0 0 10px 0; font-size:44px; line-height:1.08}
   border-radius: var(--radius);
   border:1px dashed rgba(10,40,60,.22);
   background:
-    radial-gradient(700px 340px at 20% 0%, rgba(255,209,102,.55), transparent 60%),
-    radial-gradient(560px 320px at 100% 10%, rgba(191,243,234,.65), transparent 55%),
-    rgba(255,255,255,.55);
+    radial-gradient(700px 340px at 20% 0%, rgba(14,165,183,.18), transparent 60%),
+    radial-gradient(560px 320px at 100% 10%, rgba(109,176,255,.22), transparent 55%),
+    rgba(255,255,255,.60);
   display:flex; align-items:center; justify-content:center;
   padding:16px;
   color:var(--muted);
@@ -180,7 +176,7 @@ h2{margin:0 0 12px 0}
 .footer__inner{display:flex; gap:10px; justify-content:space-between; flex-wrap:wrap}
 .muted{color:var(--muted)}
 
-/* Pills (nível de estrutura) */
+/* Pills (nível de estrutura) — azuis */
 .pill{
   display:inline-block;
   font-size:12px;
@@ -192,9 +188,9 @@ h2{margin:0 0 12px 0}
   color: #06212b;
   font-weight: 900;
 }
-.pill--alta{ background: rgba(14,165,183,.25); }
-.pill--media{ background: rgba(99,179,237,.28); }
-.pill--sem{ background: rgba(255,209,102,.45); }
+.pill--alta{ background: rgba(14,165,183,.20); }
+.pill--media{ background: rgba(109,176,255,.24); }
+.pill--sem{ background: rgba(207,239,255,.80); }
 
 @media (max-width: 900px){
   .hero__grid{grid-template-columns:1fr}
