@@ -226,3 +226,17 @@ h2{margin:0 0 12px 0}
   color: var(--brand);
   flex: 0 0 auto;
 }
+.brand{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  text-decoration:none;
+  font-weight:800;
+  letter-spacing:.2px;
+}
+.brand__icon{
+  width:24px;
+  height:24px;
+  color: var(--brand);
+  flex-shrink:0;
+}
