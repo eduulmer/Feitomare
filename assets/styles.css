@@ -1,6 +1,6 @@
 :root{
   /* Cor de fundo bege clara (#F7F6F2) */
-  --bg: #f7f6f2;                 /* bege claro quente */
+  --bg: #c8a280;                 /* bege claro quente */
   --card: rgba(255,255,255,.95); /* cartões/painéis (branco translúcido) */
   --text: #2d2d2d;               /* texto escuro */
   --muted: #666666;              /* texto secundário */
