@@ -1,8 +1,8 @@
 :root{
-  /* Baseado na logo — azul-claro suave */
-  --bg: #d4e8f0;                 /* fundo (cor exata da logo) */
+  /* Cor de fundo exata da imagem (#B9D6E1) */
+  --bg: #b9d6e1;                 /* azul-claro acinzentado */
   --card: rgba(255,255,255,.92); /* cartões/painéis (branco translúcido) */
-  --text: #1a3d4a;               /* texto (azul escuro da logo) */
+  --text: #1a3d4a;               /* texto (azul escuro) */
   --muted: #4a6b78;              /* texto secundário */
   --brand: #0d6b84;              /* turquesa/azul primário */
   --line: rgba(13,107,132,.15);
@@ -31,7 +31,7 @@ a{color:inherit}
   z-index:10;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  background: rgba(212, 232, 240, .75);
+  background: rgba(185, 214, 225, .75);
   border-bottom: 1px solid rgba(13, 107, 132, .20);
   box-shadow: 0 4px 12px rgba(13, 107, 132, .08);
 }
@@ -271,7 +271,7 @@ h2{margin:0 0 12px 0}
 
 .pill--alta{ background: rgba(13,107,132,.25); }
 .pill--media{ background: rgba(99,179,237,.28); }
-.pill--sem{ background: rgba(212, 232, 240, .65); }
+.pill--sem{ background: rgba(185, 214, 225, .65); }
 
 /* GALLERY (carrossel) */
 .gallery{
